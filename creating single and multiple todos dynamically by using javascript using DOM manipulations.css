@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.checked {
+    text-decoration: line-through;
+}
+
+.checkbox-input {
+    width: 20px;
+    height: 20px;
+    margin-top: 12px;
+    margin-right: 12px;
+}
+
+.label-head {
+    width: 80%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0px;
+    font-weight: bold;
+}
+
+.label-container {
+    background-color: #65c777;
+    width: 100%;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #096f92;
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
+    border-radius: 4px;
+}
+
+.delete-icon-container {
+    text-align: right;
+    width: 20%;
+}
+
+.delete-icon {
+    padding: 15px;
+}
+
+.list-item-container {
+
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
+.unordered-list-items-container {
+    margin: 0px;
+    padding: 0px;
+}
+
+.todos-bg-container {
+    background-color: #b6dbc0;
+    height: 100vh;
+}
+
+.todo-heading {
+    font-size: 40px;
+    font-family: Roboto;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.create-task-heading {
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 32px;
+
+
+}
+
+.create-task-second-part-heading {
+    font-weight: 500;
+    font-size: 32px;
+
+}
+
+.todo-user-input {
+    background-color: #f0bbd7;
+    width: 100%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 15px;
+
+
+}
+
+.add-todo-button {
+    background-color: #dd9bde;
+    padding: 5px;
+    color: black;
+    font-weight: bold;
+    margin-top: 20px;
+    height: 40px;
+    width: 70px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border-width: 0px;
+
+
+}
+
+.todo-items-heading {
+    font-size: 32px;
+    font-weight: 700;
+    font-family: roboto;
+}
+
+.todo-items-subpart-heading {
+    font-size: 32px;
+    font-weight: 500;
+}
